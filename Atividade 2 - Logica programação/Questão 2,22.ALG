@@ -1,0 +1,49 @@
+Algoritmo "semnome"
+//Escreva um algoritmo que enquanto a resposta do usuário for “SIM”,
+//o  usuário pode digitar uma nota. Ao sair do laço de repetição, faça
+//a média aritmética.
+
+Var
+
+    resposta : caractere
+    nota, soma, media: real
+    contador : inteiro
+
+
+Inicio
+
+
+      Escreval ("Deseja digita uma nota? ")
+      leia (resposta)
+
+      limpatela
+
+      repita
+
+      Escreval("Digite uma nota: ")
+      leia(nota)
+
+      limpatela
+
+      Escreval ("Deseja digita uma nota? ")
+      leia (resposta)
+      
+      limpatela
+      
+       soma <- soma + nota
+       contador <- contador + 1
+      
+      ate (resposta = "nao")
+      
+
+      
+media <- soma / contador
+
+Escreval ("Média: ", media)
+
+
+
+
+
+
+Fimalgoritmo
