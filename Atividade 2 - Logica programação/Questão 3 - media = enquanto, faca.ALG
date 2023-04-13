@@ -1,31 +1,38 @@
 Algoritmo "semnome"
-// Disciplina  :  [Linguagem e LÛgica de ProgramaÁ„o] 
-// Professor   : Antonio Carlos Nicolodi 
-// DescriÁ„o   : Aqui vocÍ descreve o que o programa faz! (funÁ„o)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 12/04/2023
+// .Escreva um algoritmo que enquanto a resposta do usu√°rio for ‚ÄúSIM‚Äù,
+//o  usu√°rio pode digitar uma nota. Ao sair do la√ßo de repeti√ß√£o, fa√ßa
+//a m√©dia aritm√©tica.
+
 Var
-    media:real
+
+    resposta : caractere
+    soma, nota, media: real
+    contador : inteiro
 
 
 Inicio
 
-Escreva ("Digite sua mÈdia")
- leia   (media)
+      Escreval ("Deseja digita uma nota")
+      leia (resposta)
+      
+      Enquanto (resposta = "SIM")
+         Escreval("Digite uma nota: ")
+         leia(nota)
+         
+         soma <- soma+ nota
+         contador <- contador + 1
+         
+         Escreval ("Deseja digitar uma nota")
+         leia(resposta)
+      fimenquanto
+      
+media <- soma / contador
+
+Escreval ("M√©dia: ", media)
 
 
-       enquanto (media<0) ou (media>10) faca
-       escreva ("Digite sua mÈdia")
-       leia (media)
-       fimenquanto
 
-Escreval ("MEDIA:", media)
 
-         Se (media<7) entao
-         escreva ("Reprovado")
-         senao
-         escreva ("Aprovado")
-         fimse
 
 
 Fimalgoritmo
