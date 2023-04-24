@@ -1,28 +1,38 @@
-Algoritmo "Questão 2"
-// Disciplina  :  [Linguagem e Lógica de Programação] 
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 12/04/2023
-Var
-        sim: caractere
-        nota: real
+Algoritmo "semnome"
+// Media
 
+Var
+   Resposta : Caractere
+   Numero, Soma, Media : Real
+   Contador : Inteiro
 
 
 
 Inicio
+   Resposta <- "S"
+   Enquanto Resposta = "S" faca
 
-      Repita
+      Escreva ("Digite um nÃºmero: ")
+      leia (Numero)
+      
+      Limpatela
 
-      Escreva ("Digite sim")
-      leia    (sim)
-      
-      ate (sim="sim")
-      
-      escreva ("Digite sua nota")
-      leia    (nota)
-      
+      Escreva ("Deseja continua? [S/N]")
+      Leia (Resposta)
+
+      Limpatela
+
+      Contador <- Contador + 1
+      Soma <- Soma + Numero
+
+   FimEnquanto
+
+   Media <- Soma/Contador
+
+   Escreval ("Media :", Media)
+   Escreval ("Numeros digitados:", Contador)
+
+
 
 
 Fimalgoritmo
