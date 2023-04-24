@@ -1,0 +1,33 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 24/04/2023
+Var
+   Numero, Soma: real
+   Contador, Negativos: Inteiro
+
+Inicio
+
+
+      Enquanto Contador <> 5 Faca
+      Escreva ("Digite um número: ")
+      Leia (Numero)
+
+      Se Numero > 0 Entao
+      Soma <- Soma + Numero
+
+      Senao
+      Negativos <- Negativos + 1
+      Fimse
+
+
+      Contador <- Contador + 1
+      FimEnquanto
+
+      Escreval ("Soma dos números positivos: ", Soma)
+      Escreval ("Quantidade de números negativos: ",Negativos)
+
+
+Fimalgoritmo
