@@ -1,30 +1,25 @@
 Algoritmo "semnome"
-// Disciplina  :  [Linguagem e Lógica de Programação] 
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Disciplina  :  [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : Antonio Carlos Nicolodi
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 12/04/2023
 Var
-    sexo:caractere
+   sexo:caractere
 
 Inicio
 
-       escreva ("Digite seu sexo:")
-       leia   (sexo)
+   repita
 
-       limpatela
+      escreva ("Digite sexo correto [M/F]:")
+      leia   (sexo)
 
-      repita
+      limpatela
 
-      escreva ("Digite sexo correto:")
-       leia   (sexo)
-       
-       limpatela
+   ate (sexo="M") ou (sexo="F")
 
-      ate (sexo="M") ou (sexo="F")
 
-       
-       escreval ("Sexo: ",sexo)
-      
+   escreval ("Sexo: ",sexo)
+
 
 Fimalgoritmo
