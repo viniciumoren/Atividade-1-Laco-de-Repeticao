@@ -1,7 +1,7 @@
 Algoritmo "semnome"
-//Escreva um algoritmo que enquanto a resposta do usuário for “SIM”,
-//o  usuário pode digitar uma nota. Ao sair do laço de repetição, faça
-//a média aritmética.
+//Escreva um algoritmo que enquanto a resposta do usuÃ¡rio for â€œSIMâ€,
+//o  usuÃ¡rio pode digitar uma nota. Ao sair do laÃ§o de repetiÃ§Ã£o, faÃ§a
+//a mÃ©dia aritmÃ©tica.
 
 Var
 
@@ -39,7 +39,7 @@ Inicio
       
 media <- soma / contador
 
-Escreval ("Média: ", media)
+Escreval ("MÃ©dia: ", media)
 
 
 
